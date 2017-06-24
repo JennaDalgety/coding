@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #d4d1af;
+}
+#wrapper{
+  padding-top: 10px;
+  width: 700px;
+  margin: 0 auto;
+}
+#header{
+  margin-left: 16%;
+}
+.header_content{
+  display: inline-block; 
+}
+.odd{
+  outline: 5px solid black;
+  border: 12px solid lightblue;
+  background-color: white;
+  display: inline-block;
+  outline-color: black;
+  margin: 5px;
+}
+.even{
+  border: 5px solid black;
+  background-color: #f16a73;
+  display: inline-block;
+  padding: 12px;
+}
