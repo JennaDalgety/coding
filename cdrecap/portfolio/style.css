@@ -1,0 +1,121 @@
+*{
+
+}
+#wrapper{
+  width: 1080px;
+}
+p{
+  font-family: arial;
+  color: black;
+  padding: 0px 10px 0px 10px;
+}
+a{
+  font-family: arial;
+  color: black;
+  padding-left: 10px;
+  font-size: 110%;
+}
+span{
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+#main_content{
+  background: radial-gradient(#6f5964, #1e0e12);
+}
+#header{
+  background-color: #f8f8f8;
+  display: inline-block;
+  width: 1065px;
+  position: relative;
+  padding: 5px 0px 0px 15px;
+  height: 70px;
+}
+h1{
+  font-family: "Comic Sans MS";
+  display: inline-block;
+}
+.header_p{
+  font-family: Arial;
+  font-size: 14pt;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  z-index: 0;
+}
+.my_photo{
+  border: 5px solid gray;
+  margin: 20px;
+}
+.about{
+  display: inline-block;
+  width: 555px;
+  background-color: #f0eaf0;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 105px;
+  height: 323px;
+}
+.about p{
+  font-size: 115%;
+}
+h3{
+  color: #fefffe;
+  font-family: arial;
+  background: linear-gradient(#878593, #aeacb0);
+  height: 50px;
+  margin: 0px;
+  vertical-align: text-top;
+}
+.websites{
+  margin: 10px 20px 20px 0px;
+}
+.website_details{
+  width: 330px;
+  height: 680px;
+  display: inline-block;
+  margin-left: 20px;
+  background: linear-gradient(to right, #fefefe, #dbcdda)
+}
+.website_details p{
+  color: #383538;
+  height: 160px;
+  text-align: justify;
+}
+.techs{
+  margin: 8px;
+}
+button{
+  display: block;
+  position: relative;
+  top: 10px;
+  left: 120px;
+  color: white;
+  background-color: #407d61;
+  border-radius: 9px;
+  border-color: black;
+  box-shadow: 5px 5px 2px #888888;
+  height: 30px;
+  font-size: 100%;
+}
+#footer{
+  background-color: #f8f8f8;
+  display: inline-block;
+  width: 1065px;
+  position: relative;
+  padding: 5px 0px 0px 15px;
+  height: 80px;
+}
+#footer p, a{
+  text-align: center;
+}
+.email{
+  text-decoration: none;
+}
+.contact{
+  font-style: italic;
+  position: relative;
+  bottom: 5px;
+  left: -5px;
+}
