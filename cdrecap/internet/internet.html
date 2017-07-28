@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+
+  </style>
+  <script src="http://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>  
+  <script type="text/javascript">
+
+    (document).ready(function(){
+      console.log("jQuery has loaded properly")
+
+      
+
+    });
+
+  </script>
+  <title>The Internet</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <img src="globe.png" alt="Globe" width="100" height="100">
+      <h1>The Inter<span class="blue">net</span></h1>
+      <div class="title">
+        <h2>The World Wide Web</h2>
+      </div>
+    </div>
+    <div id="inner_wrapper">
+      <div id="sidebar">
+        <h3>So what's an <span class="red">internet?</span></h3>
+        <p>An <span class="blue">inter</span>connected <span class="blue">Net</span>work of computers all around the world!</p>
+        <button class="watch" type="submit">WATCH A VIDEO</button>
+        <button class="more" type="submit">MORE RESOURCES</button>
+        <div class="reinvent">
+          <img class="sidebar_background" src="ad_background.png" alt="Ad Background" height="310" width="210">
+          <h2>Reinvent your career in just 14 weeks!</h2>
+          <img class="ninja" src="ninja.png" alt="ninja" height="125" width="85">
+          <button class="learn_more" type="submit">Learn More    <i class="arrow_right_1"></i><i class="arrow_right_2"></i><i class="arrow_right"></i></button>
+        </div>
+      </div>
+      <div id="main_content">
+        <div class="main_top_left">
+          <img src="home.png" alt="house" height="30" width="30">
+          <a href="dns">DNS</a>
+        </div>
+        <div class="main_top_right">
+          <img src="phone.png" alt="phone" height="50" width="50">
+          <div class="contact">
+            <p>Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+            <span class="phone">855.967.3787</span>
+            <p>International +1.617.963.0555</p>
+          </div>
+        </div>
+        <div class="client_server">
+          <h3>Clients and Servers</h3>
+          <p>Computers connected to the <a href="web">Web</a> are called <span class="bold">clients</span> and <span class="bold">servers.</span></p>
+          <ul>
+            <li><a href="clients">Clients</a> are the typical Web user's internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <a href="web_software">Web-accessing software</a> available on those devices (usually a web browser like Firefox or Chrome).</li>
+            <li><a href="servers">Servers</a> are computers that store <a href="webpages">webpages</a>, <a href="sites">sites</a>, or <a href="apps">apps</a>.  When a client device wants to access a webpage, a copy of a webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+          </ul>
+          <img src="client_server.jpg" alt="Request, Response" width="300" height="100">
+          <h3>So What Actually Happens?</h3>
+          <ol>
+              <li>The browser goes to the <a href="dns_server">DNS server</a> and finds the real address of the <a href="server">server</a> that the website lives on.</li>
+              <li>The browser sends an <a href="http">HTTP request</a> message to the server asking it to send a copy of the website to the client.</li>
+              <li>If the server approves the client's request, the server sends the client a <a href="200_ok">"200 OK" message</a>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+              <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+          </ol>
+          <div class="footer">
+            <img src="html.png" alt="HTML Map" height="100" width="100">
+            <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+            <p>While the server can process information in many different languages, the files that they serve to the client are <span class="italic">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+            <p>Learn more about the Big 3 <a href="here">here</a>!</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
