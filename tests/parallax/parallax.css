@@ -1,0 +1,39 @@
+*{
+
+}
+#wrapper{
+  height: auto;
+  width: auto; 
+}
+.interior{
+  height: 40em;
+}
+button{
+  margin-top: 2em;
+  margin-left: 2em;
+  color: white;
+}
+.top{
+  background-image: url("download.jpeg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle{
+  background-image: url("download (1).jpeg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom{
+  background-image: url("download (2).jpeg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

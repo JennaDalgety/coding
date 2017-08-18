@@ -1,0 +1,55 @@
+*{
+
+}
+#wrapper{
+
+}
+.main_button{
+  color: #0a5c85;
+  border-color: #0a5c85;
+  font-size: x-large;
+  margin-top: 2em;
+  margin-left: 2em;
+  height: 4em;
+  border-width: .5em;
+  border-radius: .5em;
+}
+button{
+  color: white;
+  border-color: white;
+  font-size: x-large;
+  margin-top: 3em;
+  margin-left: 2em;
+  height: 4em;
+  border-width: .5em;
+  border-radius: .5em;
+}
+.main{
+  background-image: url("assets/eyes.jpg");
+  height: 120em;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calendar{
+  background-image: url("assets/EMK.jpg");
+  height: 120em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pics{
+  background-image: url("assets/boots.jpg");
+  height: 120em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.social, img{
+  padding: 2em;
+  padding-left: 6em;
+
+}
